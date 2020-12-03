@@ -1,0 +1,590 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 625%;
+}
+
+body {
+    margin: 0;
+    font-size: .16em;
+}
+
+header {
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+}
+
+
+/* ここからバナー */
+
+.bannertop {
+    background-color: #3f3f3f;
+    height: 30px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.row a {
+    text-decoration: none;
+    color: white;
+}
+
+#banner-message {
+    width: 30%;
+}
+
+.bannerText {
+    font-size: .14rem;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+#cart {
+    padding: 0;
+    /* width: 40%; */
+    line-height: 30px;
+    font-size: .12rem;
+}
+
+ul#cart {
+    text-align: right;
+}
+
+#cart li {
+    list-style: none;
+    display: inline-block;
+}
+
+#cart a {
+    display: block;
+}
+
+.account {
+    margin-right: 5px;
+}
+
+.fa-shopping-cart {
+    font-size: 10px;
+}
+
+.item-count {
+    color: #8fc4bd;
+}
+
+.fa-shopping-cart {
+    margin-left: 10px;
+}
+
+
+/* ここまでバナー */
+
+
+/* ここからナビゲーション */
+
+.navigation {
+    height: 51px;
+    line-height: 51px;
+    background-color: white;
+}
+
+.nav-container {
+    display: flex;
+}
+
+#logo a {
+    display: block;
+}
+
+.navigation img {
+    vertical-align: middle;
+}
+
+#main-nav {
+    display: flex;
+    margin: 0 auto;
+}
+
+#main-nav a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: .14rem;
+    font-weight: bold;
+    padding: 0 10px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+#main-nav a:hover {
+    color: #8fc4bd;
+}
+
+#main-nav li {
+    list-style: none;
+}
+
+
+/* ここまでナビゲーション */
+
+#content {
+    margin: 0 120px;
+    height: 1740px;
+    padding-top: 81px;
+}
+
+
+/* セクションタイトルのCSS */
+
+.section-title h2 {
+    width: 1175px;
+    height: 60px;
+    line-height: 60px;
+    letter-spacing: 1px;
+    margin: 0 12.5px 20px 12.5px;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    font-size: 22px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+
+/* ここまでセクションタイトルのCSS */
+
+
+/* ここからメインコンテンツ */
+
+.contents {
+    margin: 0 auto;
+    padding-top: 81px;
+}
+
+
+/* ここからトップボックス */
+
+.topBox {
+    margin-top: 70px;
+}
+
+.topBox img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* ここまでトップボックス */
+
+
+/*　ここからセカンドボックス */
+
+.secondBox img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* ここからスリーボックス */
+
+.threeBox {
+    background-color: black;
+    padding: 85px 75px 55px 62px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.left-title {
+    width: 23%;
+    margin-right: 25%;
+}
+
+.left-title h1 {
+    font-size: .60rem;
+    color: white;
+    margin: 0;
+    margin-bottom: 30px;
+    line-height: 70px;
+}
+
+.left-title a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 158px;
+    height: 25px;
+    text-align: center;
+}
+
+.movieBox {
+    width: 50%;
+}
+
+.movieBox p {
+    text-align: right;
+    margin: 0;
+}
+
+.movieBox iframe {
+    width: 100%;
+}
+
+.movieBox a {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.movieBox a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+
+/* ここまでスリーボックス */
+
+
+/* ここからフォーボックス */
+
+.fourBox {
+    padding: 80px 78px 30px 68px;
+}
+
+.explanation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.explanationText {
+    width: 30%;
+}
+
+.explanationText h1 {
+    font-size: .70rem;
+    margin: 0;
+    line-height: 85px;
+}
+
+.explanationImg {
+    width: 45%;
+}
+
+.explanationImg img {
+    width: 100%;
+    height: auto;
+}
+
+.explanation p {
+    font-size: .21rem;
+}
+
+.explanation span {
+    text-decoration: underline;
+}
+
+.explanation a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    transition: .3s;
+    text-decoration: underline;
+}
+
+.explanation a:hover {
+    color: #8fc4bd;
+}
+
+
+/* .explanation span:hover{
+    text-decoration:underline;
+    text-decoration-color:#8fc4bd;
+} */
+
+
+/* ここまでフォーボックス */
+
+
+/* ここからファイブボックス */
+
+.fiveBox {
+    position: relative;
+    width: 100%;
+}
+
+.fiveBox img {
+    width: 100%;
+}
+
+.fiveBoxText {
+    position: absolute;
+    top: 60px;
+    right: 86px;
+    color: white;
+    width: 40%;
+}
+
+.fiveBoxText h1 {
+    font-size: 87px;
+    margin: 0;
+    margin-bottom: 40px;
+    line-height: 100px
+}
+
+.fiveBoxText p {
+    font-size: 22px;
+}
+
+.fiveBoxText li {
+    font-size: 21px;
+}
+
+.fiveBoxText a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px 10px;
+    transition: .3s;
+}
+
+.fiveBoxText a:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+/* ここまでファイブボックス */
+
+
+/* ここからボタンボックス */
+
+.buttonBox {
+    margin: 50px 0;
+}
+
+.buttonBox p {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.desigunbutton {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    transition: .3s;
+    margin-bottom: 20px;
+}
+
+.desigunbutton:hover {
+    background-color: #6f6f6f;
+}
+
+.tipsbutton {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    width: 158px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.tipsbutton:hover {
+    color: white;
+    background-color: black;
+}
+
+
+/* ここまでボタンボックス */
+
+
+/* ここからフッター */
+
+.footer-wrapper {
+    background-color: #ffe710;
+    border-top: 1.5px solid #000000;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.footer-box {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.footer_signup {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.footer-text {
+    margin-bottom: 5px;
+}
+
+.footer-text p {
+    margin: 0;
+}
+
+.desktop-6 {
+    height: 240.5px;
+    margin: 0 12.5px;
+    width: 47%;
+}
+
+.desktop-6 h4 {
+    border-bottom: 1.5px solid #000000;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.desktop-6 ul {
+    width: 100%;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.desktop-6 li {
+    list-style: none;
+    width: 285.5px;
+}
+
+.desktop-6 ul li a {
+    color: black;
+}
+
+.desktop-6 a {
+    text-decoration: none;
+}
+
+.mailaddles {
+    height: 0;
+    padding: 15px 0;
+    border: 1px solid #f0f0f0;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+ ::placeholder {
+    color: black;
+    font-size: .16rem;
+    border-radius: 2px;
+}
+
+.desktop-6 ul {
+    margin: 30px 0 20px 0;
+}
+
+input[type=email] {
+    font-size: .16rem;
+    width: 100%;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+input[type=submit] {
+    width: 190px;
+    border: none;
+    border-radius: 30px;
+    color: #ffe710;
+    font-size: 16px;
+    background-color: black;
+    cursor: pointer;
+    transition: .3s;
+}
+
+input[type=submit]:hover {
+    color: #ffe700;
+    background: #6f6f6f;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    border-top: 1.5px solid #000000;
+    padding: 0;
+    padding-top: 30px;
+    margin: 16px 0;
+}
+
+.footer-icons li {
+    list-style: none;
+    width: 1%;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.footer-icons i {
+    color: black;
+    font-size: .28rem;
+}
+
+.credit {
+    width: 100%;
+    height: 105px;
+    text-align: center;
+    margin: 30px 12.5px 0 12.5px;
+}
+
+.credit p {
+    margin: 0 0 10px 0;
+    font-size: 1.0rem;
+    font-size: 11px;
+    letter-spacing: 1px;
+    height: 25px;
+}
+
+.credit a {
+    color: #000000;
+}
+
+.footer-Lasticons {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-top: 1.5px solid #000000;
+}
+
+.footer-Lasticons li {
+    list-style: none;
+    width: 10px;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.footer-Lasticons i {
+    color: black;
+    font-size: .28rem;
+}
+
+
+/* ここまでフッター */

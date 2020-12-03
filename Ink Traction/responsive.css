@@ -1,0 +1,81 @@
+    @media screen and (max-width:320px) {
+        /* ヘッダー */
+        .bannertop {
+            height: 40px;
+        }
+        #banner-message {
+            width: 100%;
+            text-align: center;
+            line-height: 40px;
+        }
+        .bannerText {
+            font-size: .1rem;
+        }
+        #cart {
+            display: none;
+        }
+        .sidebar {
+            display: none;
+        }
+        /* ナビゲーション */
+        #main-nav li {
+            display: none;
+        }
+        .Explanationmovie iframe {
+            height: auto;
+        }
+        .ExplanationBlock p {
+            font-size: .10rem;
+        }
+        /* フッター */
+        .desktop-6 {
+            flex-direction: column;
+            /* margin-bottom: 60px; */
+            height: 300px;
+        }
+        .desktop-6 h4 {
+            font-weight: bold;
+        }
+        .desktop-6 ul {
+            height: 265px;
+            margin: 0;
+        }
+        .desktop-6 li {
+            width: auto;
+        }
+        .desktop-6 li>a {
+            font-size: .14rem;
+        }
+        .mobile-3 {
+            width: 100%;
+        }
+        .footer-wrapper>.row {
+            margin: 0;
+            width: 100%;
+        }
+        .footer-text p {
+            font-size: .14rem;
+        }
+        input[type=submit] {
+            width: 295px;
+        }
+        .credit p {
+            margin-bottom: 0;
+        }
+    }
+    
+    @media screen and (min-width:321px) and (max-width:1024px) {
+        #banner-message {
+            width: 55%;
+        }
+        #main-nav img {
+            width: 100px;
+            height: auto;
+        }
+        #main-nav a {
+            font-size: .11rem;
+        }
+        .desktop-6 {
+            width: 70%;
+        }
+    }

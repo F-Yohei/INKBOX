@@ -1,0 +1,214 @@
+@media screen and (max-width:320px) {
+    /* ヘッダー */
+    .bannertop {
+        height: 40px;
+    }
+    #banner-message {
+        width: 100%;
+        text-align: center;
+        line-height: 40px;
+    }
+    .bannerText {
+        font-size: .1rem;
+    }
+    #cart {
+        display: none;
+    }
+    .sidebar {
+        display: none;
+    }
+    /* ナビゲーション */
+    #main-nav li {
+        display: none;
+    }
+    /* トップボックス */
+    .topBox {
+        margin-top: 25px;
+    }
+    /* スリーボックス */
+    .threeBox {
+        padding: 0;
+        flex-direction: column;
+    }
+    .left-title {
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 16px;
+    }
+    .left-title h1 {
+        font-size: .30rem;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .movieBox {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .movieBox iframe {
+        width: 100%;
+        height: auto;
+    }
+    .movieBox p {
+        text-align: center;
+    }
+    /* 4つ目のボックス */
+    .fourBox {
+        padding: 10px;
+    }
+    .explanation {
+        flex-direction: column;
+    }
+    .explanationText {
+        width: 85%;
+    }
+    .explanationText h1 {
+        width: 100%;
+        font-size: .40rem;
+        line-height: 40px;
+    }
+    .explanationImg {
+        width: 80%;
+    }
+    .explanation p {
+        font-size: .14rem;
+    }
+    /* 五つめのボックス */
+    .fiveBoxText {
+        position: absolute;
+        top: 10px;
+        right: 26px;
+        width: 57%;
+    }
+    .fiveBoxText h1 {
+        font-size: .20rem;
+        line-height: 20px;
+        margin: 0;
+    }
+    .fiveBoxText p {
+        font-size: .10rem;
+    }
+    .fiveBoxText ul {
+        list-style: inside;
+    }
+    .fiveBoxText li {
+        font-size: 0.09rem;
+    }
+    .fiveBoxText a {
+        padding: 4px;
+        font-size: 0.03rem;
+    }
+    .desigunbutton {
+        width: 90%;
+    }
+    .tipsbutton {
+        width: 90%;
+    }
+    /* フッター */
+    .desktop-6 {
+        flex-direction: column;
+        height: 300px;
+    }
+    .desktop-6 h4 {
+        font-weight: bold;
+    }
+    .desktop-6 ul {
+        height: 265px;
+        margin: 0;
+    }
+    .desktop-6 li {
+        width: auto;
+    }
+    .desktop-6 li>a {
+        font-size: .14rem;
+    }
+    .mobile-3 {
+        width: 100%;
+    }
+    .footer-wrapper>.row {
+        margin: 0;
+        width: 100%;
+    }
+    .footer-text p {
+        font-size: .14rem;
+    }
+    input[type=submit] {
+        width: 295px;
+    }
+    .credit p {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:1024px) {
+    /* ヘッダー */
+    #banner-message {
+        width: 55%;
+    }
+    /* ナビゲーション */
+    #main-nav img {
+        width: 100px;
+        height: auto;
+    }
+    #main-nav a {
+        font-size: .11rem;
+    }
+    #content {
+        height: 800px;
+    }
+    /* 三つめのボックス */
+    .threeBox {
+        padding: 20px;
+    }
+    .left-title {
+        margin: 45px;
+    }
+    .left-title h1 {
+        font-size: .40rem;
+        line-height: 40px;
+    }
+    .movieBox {
+        width: 64%;
+    }
+    /* 四つめのボックス */
+    .fourBox {
+        padding: 10px;
+    }
+    .explanationText h1 {
+        font-size: .40rem;
+        line-height: 50px;
+    }
+    .explanation p {
+        font-size: .14rem;
+    }
+    /* 五つめのボックス */
+    .fiveBoxText {
+        position: absolute;
+        top: 30px;
+    }
+    .fiveBoxText h1 {
+        font-size: .60rem;
+        line-height: 70px;
+        margin-bottom: 15px;
+    }
+    .fiveBoxText p {
+        font-size: .16rem;
+    }
+    .fiveBoxText ul {
+        margin-bottom: 10px;
+        list-style: inside;
+    }
+    .fiveBoxText li {
+        font-size: .12rem;
+    }
+    .desigunbutton,
+    .tipsbutton {
+        width: 50%;
+    }
+    .categories a {
+        font-size: .11rem;
+    }
+    .desktop-6 {
+        width: 70%;
+    }
+}

@@ -1,0 +1,122 @@
+@media screen and (max-width:320px) {
+    /* ヘッダー */
+    .bannertop {
+        height: 40px;
+    }
+    #banner-message {
+        width: 100%;
+        text-align: center;
+        line-height: 40px;
+    }
+    .bannerText {
+        font-size: .1rem;
+    }
+    #cart {
+        display: none;
+    }
+    /* ナビゲーション */
+    .navigation {
+        display: none;
+    }
+    .side-menu {
+        display: block;
+    }
+    .mobile-nav {
+        display: block;
+    }
+    .smafo-logo img {
+        width: 130px;
+        margin-left: 15px;
+    }
+    /* メイン画像 */
+    #flexslider {
+        height: 220px;
+        padding: 0;
+        padding-top: 91px;
+        margin-bottom: 30px;
+    }
+    /* 商品一覧 */
+    .product {
+        justify-content: space-around;
+    }
+    .reveal {
+        margin: 5px;
+        width: 46%;
+        text-align: center;
+    }
+    .sectiontitle h2 {
+        font-size: .15rem;
+    }
+    .reveal h3 {
+        font-size: .13rem;
+    }
+    .prod-price {
+        font-size: .10rem;
+    }
+    /* プロモーション */
+    .promo-images {
+        padding: 0 10px;
+    }
+    .promocontents {
+        flex-direction: column;
+    }
+    .promo-inner {
+        margin-bottom: 30px;
+    }
+    .designbutton a {
+        width: 85%;
+    }
+    /* フッター */
+    .desktop-6 {
+        flex-direction: column;
+        height: 300px;
+    }
+    .desktop-6 h4 {
+        font-weight: bold;
+    }
+    .desktop-6 ul {
+        height: 265px;
+        margin: 0;
+    }
+    .desktop-6 li {
+        width: auto;
+    }
+    .desktop-6 li>a {
+        font-size: .14rem;
+    }
+    .mobile-3 {
+        width: 100%;
+    }
+    .footer-wrapper>.row {
+        margin: 0;
+        width: 100%;
+    }
+    .footer-text p {
+        font-size: .14rem;
+    }
+    input[type=submit] {
+        width: 295px;
+    }
+    .credit p {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:1024px) {
+    #banner-message {
+        width: 55%;
+    }
+    #main-nav img {
+        width: 100px;
+        height: auto;
+    }
+    #main-nav a {
+        font-size: .11rem;
+    }
+    #flexslider {
+        height: 350px;
+    }
+    .desktop-6 {
+        width: 70%;
+    }
+}
